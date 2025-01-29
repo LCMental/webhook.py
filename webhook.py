@@ -3,7 +3,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 # Token segreto per verificare il webhook
-VERIFY_TOKEN = "mio_token123"
+VERIFY_TOKEN = "EAAV6r1PvJOkBO2yu9i5vdJ5IAuHpRkWZAkIIj4t4R8N8nbxds1PnqW0PUGPhrbJvqMKArbplon2HBm9jGYyOLcg9hB4xZAY5biq8zOL8ZA5WVu1AWIhstNRUMWSp7zn2h4yErzdosgXvruuS4xUeRNB8TfJTIwFzpsERzdgNxIUGvOAJ1R90zg8sVwXDkkYawZDZD"
 
 @app.route('/webhook', methods=['GET'])
 def verify():
